@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>formulier</title>
+</head>
+
+<body>
+
+    <h1>Velden voor een HTML-forumulier</h1>
+    <form>
+        <fieldset>
+            <legend>
+                <h2>Tekstvelden</h2>
+            </legend>
+            <p><label for="voornaam">Voornaam:</label> <input id="voornaam" type="text" name="Voornaam:" /></p>
+            <p><label for="achternaam">Achternaam:</label> <input type="text" type="text" name="Achternaam:" /></p>
+            <p><label for="password">Wachtwoord:</label><input type="password" name="pwd" /></p>
+        </fieldset>
+
+        <fieldset>
+            <legend>
+                <h2>Radio Buttons</h2>
+            </legend>
+            <p><input type="radio" name="geslacht" value="man" />Man</p>
+            <p><input type="radio" name="geslacht" value="vrouw" />Vrouw</p>
+        </fieldset>
+
+        <fieldset>
+            <legend>
+                <h2>Checkbox</h2>
+            </legend>
+            <p><input type="checkbox" name="vehicle" value="Fiets" />Ik heb een fiets</p>
+            <p><input type="checkbox" name="vehicle" value="Auto" />Ik heb een auto</p>
+        </fieldset>
+
+        <fieldset>
+            <legend>
+                <h2>Dropdownlist</h2>
+            </legend>
+            <p><select name="Balletdanseressen">
+                    <option value="Martha Graham">Martha Graham</option>
+                    <option value="Carlotta Grisi">Carlotta Grisi</option>
+                    <option value="Agrippina Vaganova" selected="selected">Agrippina Vaganova</option>
+                    <option value="Natalie Portman">Natalie Portman</option>
+                </select></p>
+        </fieldset>
+
+        <fieldset>
+            <legend>
+                <h2>Textarea</h2>
+            </legend>
+            <p><textarea rows="7" cols="25" name="opmerkingen"></textarea></p>
+
+            <legend>
+                <h2>Submit knop</h2>
+            </legend>
+            <p><input type="submit" value="Verzenden"></p>
+        </fieldset>
+
+    </form>
+
+</body>
+
+</html>
